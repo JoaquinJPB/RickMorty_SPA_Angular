@@ -5,7 +5,7 @@ Requisitos:
 - Angular Material 13.3.2
 - Node 16.14.0
 
-Esta aplicación se basa en el uso de servicios del framework de Angular haciendo uso de la API de Rick and Morty, para observar como pillar datos de una API.
+Esta aplicación se basa en el uso de servicios del framework de Angular haciendo uso de la API de Rick and Morty, para observar como obtener datos de una API.
 
 Dentro de esta aplicación, se tratan los datos de personajes, episodios y lugares que ofrece la API.
 
