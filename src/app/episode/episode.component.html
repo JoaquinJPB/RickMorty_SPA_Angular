@@ -1,0 +1,23 @@
+<div>
+    <h1>Episodes of Rick & Morty</h1>
+        <div class="table-wrapper">
+            <table class="fl-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Air Date</th>
+                        <th>Episode</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let episode of episodes">
+                        <td id="{{episode.id}}">{{episode.id}}</td>
+                        <td>{{episode.name}}</td>
+                        <td>{{episode.air_date}}</td>
+                        <td>{{episode.episode}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+</div>

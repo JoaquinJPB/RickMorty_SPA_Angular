@@ -1,0 +1,15 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.nav-components{
+    margin-top: 1rem;
+    margin-left: 1.15rem;
+    width: min-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-components button{
+    margin-left: .5rem;
+}

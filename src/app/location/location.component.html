@@ -1,0 +1,24 @@
+
+<div>
+    <h1>Locations of Rick & Morty</h1>
+    <div class="table-wrapper">
+        <table class="fl-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Dimension</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let location of locations">
+                <td id="{{location.id}}">{{location.id}}</td>
+                <td>{{location.name}}</td>
+                <td>{{location.type}}</td>
+                <td>{{location.dimension}}</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+</div>
